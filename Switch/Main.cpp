@@ -56,7 +56,7 @@ int main() {
 		break;
 
 	case 16:
-		cout << "Age: " << *ptr << endl;
+		cout << "Age: " << name.getAge() << endl;
 		cout << "Child" << endl;
 		break;
 
@@ -67,6 +67,7 @@ int main() {
 		break;
 
 	default:
+		cout << "Age: " << name.getAge() << endl;
 		cout << "Not a Human" << endl;
 		break;
 
